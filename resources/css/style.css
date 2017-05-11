@@ -64,19 +64,19 @@ nav li{
   margin: 0 auto;
 }
 
-.galery {
+.gallery {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-.galery img {
+.gallery img {
   width: 300px;
   height: 200px;
   margin: 0 15px;
 }
 
-.galery h4 {
+.gallery h4 {
   margin-top: 10px;
 }
 
