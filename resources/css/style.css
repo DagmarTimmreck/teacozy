@@ -1,7 +1,6 @@
 body {
   background-color: black;
   opacity: 0.9;
-
   font-family: Helvetica, sans-serif;
   font-size: 22px;
   color: seashell;
@@ -24,7 +23,6 @@ header {
 
   background-color: black;
   opacity: 0.9;
-
 }
 
 .logo {
@@ -75,7 +73,7 @@ nav li{
 .galery img {
   width: 300px;
   height: 200px;
-  padding: 0 15px;
+  margin: 0 15px;
 }
 
 .galery h4 {
@@ -85,22 +83,30 @@ nav li{
 #locations {
   width: 1200px;
   height: 500px;
-  margin: 70px auto;
-  background-image: url("../images/img-locations-background.jpg");
+  margin: 70px auto 0 auto;
+  background: 0 20% url("../images/img-locations-background.jpg");
 }
 
 #locations h2 {
     padding-top: 45px;
+    margin-bottom: 15px;
 }
 
 .location {
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
+  justify-content: space-around;
   width: 300px;
-  height: 300px;
-  margin: 15px 20px;
+  height: 275px;
+  margin: 0 20px;
   background-color: black;
   opacity: 1;
+}
+
+.location h3,
+.location p {
+  display: block;
+  margin: 0;
 }
 
 address {
@@ -108,7 +114,11 @@ address {
   font-style: normal;
 }
 
-footer p {
+address h2 {
+  margin-top: 10px;
+}
+
+footer h5 {
   margin-left: 20px;
   text-align: left;
 }
