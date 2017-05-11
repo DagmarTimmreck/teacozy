@@ -102,3 +102,13 @@ nav li{
   background-color: black;
   opacity: 1;
 }
+
+address {
+  height: 200px;
+  font-style: normal;
+}
+
+footer p {
+  margin-left: 20px;
+  text-align: left;
+}
